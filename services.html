@@ -1,40 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Services - SP Valuation & Consulting Services</title>
-    <link rel="stylesheet" href="assets/style.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Our Services | SP Valuation</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'DM Sans', sans-serif;
+    }
+  </style>
 </head>
-<body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="services.html" class="active">Services</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="profile.html">Profile</a></li>
-            </ul>
-        </nav>
-    </header>
+<body class="bg-gray-50 text-gray-800">
+  <header class="bg-white shadow p-4 flex items-center justify-between">
+    <img src="assets/SP_LOGO.jpg" alt="SP Logo" class="h-12" />
+    <nav class="space-x-4">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html" class="text-blue-600 font-semibold">Services</a>
+      <a href="projects.html">Projects</a>
+      <a href="profile.html">Company Profile</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
 
-    <main>
-        <section>
-            <h1>Our Services</h1>
-            <ul>
-                <li>Immovable Property Valuation</li>
-                <li>Financial Advisory and Planning</li>
-                <li>Land Consulting and Verified Land Deals</li>
-                <li>Loan Valuation Support</li>
-                <li>Property Market Analysis</li>
-            </ul>
-        </section>
-    </main>
+  <main class="max-w-5xl mx-auto p-6">
+    <h1 class="text-3xl font-bold text-center mt-8 mb-4">Our Services</h1>
+    <p class="text-center text-lg mb-10">We provide expert consulting for valuation, land investment, financial planning, and compliance.</p>
 
-    <footer>
-        <p>© 2025 SP Valuation & Consulting Services</p>
-    </footer>
+    <div class="grid md:grid-cols-2 gap-8">
+      <div class="bg-white p-6 rounded shadow">
+        <h2 class="text-xl font-semibold mb-2">🏢 Immovable Property Valuation</h2>
+        <p>Valuation for Residential, Commercial, Industrial, and Agricultural properties. For loans, mergers, income tax, court cases, and more.</p>
+      </div>
+
+      <div class="bg-white p-6 rounded shadow">
+        <h2 class="text-xl font-semibold mb-2">💼 Financial Advisory & Planning</h2>
+        <p>End-to-end personal and business financial planning. Includes investment planning, tax advice, savings strategy, and home/business loan help.</p>
+      </div>
+
+      <div class="bg-white p-6 rounded shadow">
+        <h2 class="text-xl font-semibold mb-2">🌐 Land Investment Consulting</h2>
+        <p>Verified land deals across Gujarat. Location inspection, pricing analysis, legal due diligence, investor guidance for high-value land.</p>
+      </div>
+
+      <div class="bg-white p-6 rounded shadow">
+        <h2 class="text-xl font-semibold mb-2">🏗️ Structure Stability Reporting</h2>
+        <p>Certified reports based on inspection. Includes structural safety, usable life span, and recommendations for renovation or strengthening.</p>
+      </div>
+
+      <div class="bg-white p-6 rounded shadow">
+        <h2 class="text-xl font-semibold mb-2">📝 Liaisoning & Regulatory Services</h2>
+        <p>Building permission coordination with AUDA / AMC, documentation for plan passing, and compliance follow-ups.</p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="bg-gray-900 text-white text-center p-6 mt-12">
+    <p>&copy; 2025 SP Valuation & Financial Consulting Services</p>
+  </footer>
 </body>
 </html>

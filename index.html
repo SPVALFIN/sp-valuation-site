@@ -2,33 +2,79 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>SP Valuation & Consulting Services - Home</title>
-    <link rel="stylesheet" href="assets/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SP Valuation & Financial Consulting Services</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Playfair+Display:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'DM Sans', sans-serif;
+        }
+    </style>
 </head>
-<body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="profile.html">Profile</a></li>
-            </ul>
+<body class="bg-gray-100 text-gray-800">
+    <header class="bg-white shadow p-4 flex items-center justify-between">
+        <img src="assets/SP_LOGO.jpg" alt="SP Logo" class="h-12" />
+        <nav class="space-x-4">
+            <a href="index.html" class="text-blue-600 font-semibold">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="projects.html">Projects</a>
+            <a href="profile.html">Company Profile</a>
+            <a href="contact.html">Contact</a>
         </nav>
     </header>
 
-    <main>
-        <section>
-            <h1>Welcome to SP Valuation & Consulting Services</h1>
-            <p>Your trusted professional for property valuation and financial consulting.</p>
+    <main class="max-w-6xl mx-auto p-6">
+        <section class="text-center my-12">
+            <h1 class="text-4xl font-bold mb-4">Welcome to SP Valuation & Financial Consulting Services</h1>
+            <p class="text-lg">Led by Mr. Swetpadma Patel, a Central Govt. Registered Valuer, Chartered Valuer, MBA, Financial Consultant & Land Advisor</p>
+        </section>
+
+        <section class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
+            <div>
+                <h2 class="text-2xl font-semibold mb-2">Our Mission</h2>
+                <p>To provide transparent, credible, and compliant Valuation and Financial Consulting services to clients across Gujarat.</p>
+            </div>
+            <div>
+                <h2 class="text-2xl font-semibold mb-2">Our Presence</h2>
+                <p>Head Office: Ahmedabad | Branches: Vadodara, Mehsana | Working Pan-India</p>
+            </div>
+        </section>
+
+        <section class="mt-12">
+            <h2 class="text-2xl font-bold mb-4 text-center">Our Core Services</h2>
+            <div class="grid md:grid-cols-3 gap-6">
+                <div class="bg-white p-4 rounded shadow">
+                    <h3 class="font-semibold text-lg mb-2">🏢 Property Valuation</h3>
+                    <p>Residential, Commercial, Industrial, Agricultural valuation for banks, loans, VISA, legal and tax purposes.</p>
+                </div>
+                <div class="bg-white p-4 rounded shadow">
+                    <h3 class="font-semibold text-lg mb-2">💼 Financial Advisory</h3>
+                    <p>Complete financial planning, investment advice, tax saving, and loan support.</p>
+                </div>
+                <div class="bg-white p-4 rounded shadow">
+                    <h3 class="font-semibold text-lg mb-2">🌐 Land Investment</h3>
+                    <p>Consulting for verified land deals across Gujarat with legal and location assessment.</p>
+                </div>
+                <div class="bg-white p-4 rounded shadow">
+                    <h3 class="font-semibold text-lg mb-2">🏗️ Structural Stability</h3>
+                    <p>Building inspection and structural safety reporting with renovation advice.</p>
+                </div>
+                <div class="bg-white p-4 rounded shadow">
+                    <h3 class="font-semibold text-lg mb-2">📝 Liaisoning Services</h3>
+                    <p>Coordination with AMC/AUDA, Plan passing, and regulatory approvals.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="mt-12 text-center">
+            <a href="profile.html" class="bg-blue-600 text-white px-6 py-3 rounded font-semibold hover:bg-blue-700">Download Company Profile</a>
         </section>
     </main>
 
-    <footer>
-        <p>© 2025 SP Valuation & Consulting Services</p>
+    <footer class="bg-gray-900 text-white text-center p-6 mt-12">
+        <p>&copy; 2025 SP Valuation & Financial Consulting Services</p>
     </footer>
 </body>
 </html>
